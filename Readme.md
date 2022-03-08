@@ -153,6 +153,26 @@ Init - > Plan - > Apply
  commands will detect it and remind you to do so if necessary.
 
 
+*terraform plan*
+
+>Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+   + create
+
+>Terraform will perform the following actions:
+
+  # local_file.games will be created
+  + resource "local_file" "games" {
+      + content              = "Fifa 2021"
+      + directory_permission = "0777"
+      + file_permission      = "0777"
+      + filename             = "/root/rhyme/fav_games.txt"
+      + id                   = (known after apply)
+    }
+
+>Plan: 1 to add, 0 to change, 0 to destroy.
+>Note: You didn't use the -out option to save this plan, so Terraform can't guarantee to take exactly these actions if you run "terraform apply" now.
+
+
 
 
 
