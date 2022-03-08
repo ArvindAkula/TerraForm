@@ -205,6 +205,9 @@ local_file.games: Creating...
 on main.tf line 1, in resource "local_file" "games":
  1: resource "local_file" "games"{
 
+# TerraForm local file arguments
+
+https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file
 
 
 
