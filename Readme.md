@@ -134,7 +134,7 @@ resource "local_file" "games"{
 Init - > Plan - > Apply
 
 
-*terraform init*
+# *terraform init*
 
 >Initializing the backend...
 
@@ -153,14 +153,14 @@ Init - > Plan - > Apply
  commands will detect it and remind you to do so if necessary.
 
 
-*terraform plan*
+# *terraform plan*
 
 >Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
    + create
 
 >Terraform will perform the following actions:
 
-  # local_file.games will be created
+  #local_file.games will be created
   + resource "local_file" "games" {
       + content              = "Fifa 2021"
       + directory_permission = "0777"
@@ -175,14 +175,14 @@ Init - > Plan - > Apply
 
 
 
-*terraform apply*
+# *terraform apply*
 
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
   + create
 
 Terraform will perform the following actions:
 
-  # local_file.games will be created
+  #local_file.games will be created
   + resource "local_file" "games" {
       + content              = "Fifa 2021"
       + directory_permission = "0777"
