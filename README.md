@@ -1,9 +1,13 @@
 # TerraForm
 
 Understanding of Infrastructure as code
+
 Understanding of Terraform basics and its execution flow
+
 Understanding HCL language (Harshicorp Language System) syntax
+
 Creating infrastructure using Terraform
+
 Defining variables in Terraform
 
 # SKILLS YOU WILL DEVELOP
