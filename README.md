@@ -89,11 +89,19 @@ Graded Quiz: This is the final assignment that you need to pass in order to fini
 The hands-on project on Course Name is divided into the following tasks:
 
 Task 1: Introduction to Infrastructure as code and Terraform
+
 Task 2: Harshicorp Configuration Language syntax
+
 Task 3: Create your first infrastructure using Terraform execution flow
+
 Task 4: Updating a resource in Terraform configuration file
+
 Task 5: State file and other files created by Terraform
+
 Task 6: Defining Variables in Terraform
+
 Task 7: Passing variables via terraform.tfvars file
+
 Task 8: Writing configuration files to create a resource in Azure Cloud 
+
 Task 9: Creating a resource in Azure Cloud
