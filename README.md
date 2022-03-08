@@ -20,11 +20,19 @@ IT Automation
 
 # Learn step-by-step
 Introduction to Infrastructure as code and Terraform
+
 Harshicorp Configuration Language syntax
+
 Create your first infrastructure using Terraform execution flow
+
 Updating a resource in Terraform configuration file
+
 State file and other files created by Terraform
+
 Defining Variables in Terraform
+
 Passing variables via terraform.tfvars file
+
 Writing configuration files to create a resource in Azure Cloud 
+
 Creating a resource in Azure cloud via Terraform
