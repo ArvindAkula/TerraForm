@@ -212,12 +212,19 @@ https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/fi
 
 
 # ls -ltra [terraform.tfstate]
+
 total 24
+
 drwxr-xr-x  3 rhyme rhyme 4096 Mar  8 06:21 .terraform
+
 -rw-r--r--  1 rhyme rhyme 1078 Mar  8 06:21 .terraform.lock.hcl
+
 -rw-rw-r--  1 rhyme rhyme  127 Mar  8 06:29 main.tf
+
 drwxrwxrwx 28 rhyme rhyme 4096 Mar  8 06:29 ..
+
 -rw-rw-r--  1 rhyme rhyme  156 Mar  8 06:40 terraform.tfstate
+
 drwxrwxr-x  3 rhyme rhyme 4096 Mar  8 06:40 .
 
 
@@ -226,10 +233,15 @@ drwxrwxr-x  3 rhyme rhyme 4096 Mar  8 06:40 .
  ls -ltra
 total 24
 **drwxr-xr-x  3 rhyme rhyme 4096 Mar  8 06:21 .terraform**  //Contains all providers
+
 -rw-r--r--  1 rhyme rhyme 1078 Mar  8 06:21 .terraform.lock.hcl
+
 -rw-rw-r--  1 rhyme rhyme  127 Mar  8 06:29 main.tf
+
 drwxrwxrwx 28 rhyme rhyme 4096 Mar  8 06:29 ..
+
 **-rw-rw-r--  1 rhyme rhyme  156 Mar  8 06:40 terraform.tfstate**   //Contains state - not to edit manually
+
 drwxrwxr-x  3 rhyme rhyme 4096 Mar  8 06:40 .
 
 
