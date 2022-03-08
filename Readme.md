@@ -122,4 +122,13 @@ managing them manually through a user interface. Provisining infrastructure thro
 - Idempotent
 - Consistent Infrastructure
 
+ # main.tf
+resource "local_file" "games"{
+         filename = "/root/fav_games.txt"
+         content = "Fifa 2021"
+}
+
+# EXECUTION FLOW
+
+
 
