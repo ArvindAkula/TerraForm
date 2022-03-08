@@ -133,25 +133,25 @@ resource "local_file" "games"{
 
 Init - > Plan - > Apply
 
-* 
-terraform init
 
-Initializing the backend...
+*terraform init*
 
-Initializing provider plugins...
-- Reusing previous version of hashicorp/local from the dependency lock file
-- Using previously-installed hashicorp/local v2.1.0
+>Initializing the backend...
 
-Terraform has been successfully initialized!
+>Initializing provider plugins...
+  - Reusing previous version of hashicorp/local from the dependency lock file
+  - Using previously-installed hashicorp/local v2.1.0
 
-You may now begin working with Terraform. Try running "terraform plan" to see
-any changes that are required for your infrastructure. All Terraform commands
-should now work.
+>Terraform has been successfully initialized!
 
-If you ever set or change modules or backend configuration for Terraform,
-rerun this command to reinitialize your working directory. If you forget, other
-commands will detect it and remind you to do so if necessary.
-*
+> You may now begin working with Terraform. Try running "terraform plan" to see
+  any changes that are required for your infrastructure. All Terraform commands
+  should now work.
+
+>If you ever set or change modules or backend configuration for Terraform,
+ rerun this command to reinitialize your working directory. If you forget, other
+ commands will detect it and remind you to do so if necessary.
+
 
 
 
