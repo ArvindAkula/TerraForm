@@ -175,5 +175,41 @@ Init - > Plan - > Apply
 
 
 
+*terraform apply*
+
+Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
+  + create
+
+Terraform will perform the following actions:
+
+  # local_file.games will be created
+  + resource "local_file" "games" {
+      + content              = "Fifa 2021"
+      + directory_permission = "0777"
+      + file_permission      = "0777"
+      + filename             = "/root/rhyme/terraform-labs/fav_games.txt"
+      + id                   = (known after apply)
+    }
+
+Plan: 1 to add, 0 to change, 0 to destroy.
+
+Do you want to perform these actions?
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  Enter a value: yes
+
+local_file.games: Creating...
+ Error: mkdir /root/rhyme: permission denied
+
+on main.tf line 1, in resource "local_file" "games":
+ 1: resource "local_file" "games"{
+
+
+
+
+
+
+
 
 
