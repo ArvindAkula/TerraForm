@@ -124,11 +124,36 @@ managing them manually through a user interface. Provisining infrastructure thro
 
  # main.tf
 resource "local_file" "games"{
-         filename = "/root/fav_games.txt"
+         filename = "/root/rhyme/fav_games.txt"
          content = "Fifa 2021"
 }
 
+
 # EXECUTION FLOW
+
+Init - > Plan - > Apply
+
+* *
+terraform init
+
+Initializing the backend...
+
+Initializing provider plugins...
+- Reusing previous version of hashicorp/local from the dependency lock file
+- Using previously-installed hashicorp/local v2.1.0
+
+Terraform has been successfully initialized!
+
+You may now begin working with Terraform. Try running "terraform plan" to see
+any changes that are required for your infrastructure. All Terraform commands
+should now work.
+
+If you ever set or change modules or backend configuration for Terraform,
+rerun this command to reinitialize your working directory. If you forget, other
+commands will detect it and remind you to do so if necessary.
+* *
+
+
 
 
 
