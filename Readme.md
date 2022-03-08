@@ -245,4 +245,10 @@ drwxrwxrwx 28 rhyme rhyme 4096 Mar  8 06:29 ..
 drwxrwxr-x  3 rhyme rhyme 4096 Mar  8 06:40 .
 
 
-
+# Passing values to a variable
+1) Pass the values via interactive CLI
+2) Pass the values via CLI arguments
+3) Pass the values as environment variables
+4) Define the variables in terraform.tfvars or terraform.tfvars.json file
+5) Define the variables in any file and pass the reference of the
+variables file in terraform apply command
