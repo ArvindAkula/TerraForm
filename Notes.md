@@ -110,6 +110,16 @@ Task 9: Creating a resource in Azure Cloud
 # IAC (Infrastructure as code)
 
 Iac is a code (human readable) that deploys your infrastructure resoruces onto various platforms instead of 
-managing them manually through a user interface.
+managing them manually through a user interface. Provisining infrastructure through software to achieve consistent and predictable environment.
 
-Provisining infrastructure through software to achieve consistent and predictable environment.
+# Wht Terraform
+
+- No more clicks (we can write human readable code)
+- Enable DevOps
+- Declaritive Infrastructure
+- Speed, Cost and reduce risk
+- Support various private and public cloud vendors
+- Idempotent
+- Consistent Infrastructure
+
+
