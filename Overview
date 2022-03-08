@@ -1,4 +1,4 @@
-** Project Overview**
+# Project Overview
 Terraform allows infrastructure to be expressed as code. The desired state is expressed in a simple human readable language. 
 Terraform uses this language to provide an execution plan of changes, which can be reviewed for safety and then applied to make changes. 
 Extensible providers allow Terraform to manage a broad range of resources, including hardware, IaaS, PaaS, and SaaS services. 
